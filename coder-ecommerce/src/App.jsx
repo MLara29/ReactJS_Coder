@@ -1,13 +1,14 @@
 
 import './App.css'
-import {app} from './utils/firebase'
+//import { Home } from './router/home/home'
+import { Navigation } from './assets/components/router/navigation/navigation'
+
 
 export function App() {
- 
-
   return (
-    <></>
+    <>
+      <Navigation />
+      
+    </>
   )
 }
-
-export default App
