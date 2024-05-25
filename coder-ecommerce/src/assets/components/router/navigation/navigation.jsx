@@ -1,4 +1,5 @@
 import './navigation.css'
+import { CartWidget } from './cart/cartwidget'
 
 export function Navigation() {
     return(
@@ -15,7 +16,7 @@ export function Navigation() {
                 <a className='Link-Nav' href="">INFORMATICA</a>
                 <a className='Link-Nav' href="">GAMES</a>
                 <a className='Link-Nav' href="LOGIN">LOGIN</a>
-                <a><i className="material-icons">shopping_cart</i></a>
+                <CartWidget/>
             </div>
          </div>
         </>
